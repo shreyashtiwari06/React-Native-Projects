@@ -6,10 +6,11 @@ import {
 } from 'react-native'
 
 function App(){
-  return(<SafeAreaView>
-    <View>
-      <Text>
-        Hello World !</Text> 
+  return(
+  <SafeAreaView>
+    <View> 
+      <Text>Hello World !</Text>
+      <Text>Hello world </Text> 
     </View> 
   </SafeAreaView>)
 }
